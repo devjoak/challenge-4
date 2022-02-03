@@ -1,0 +1,96 @@
+body {
+    /* width: 100%; */
+    background-image: url(./images/pattern-background-desktop.svg);
+}
+.general {
+    width: 40%;
+    border-radius: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.981); */
+    background: rgb(248, 247, 248);
+    margin: 0px auto;
+}
+.overall {
+    width: 60%;
+}
+.image_cover {
+    width: 530px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.combination {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.cap{}
+.tie {
+    width: 70%;
+    padding-left: 80px;
+    font-size: 20px;
+}
+.series {
+    display: flex;
+    border: 1px solid rgb(250, 241, 241);
+    justify-content: space-around;
+    height: 90px;
+    width: 80%;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: rgb(250, 241, 241);
+    margin-bottom: 50px;
+}
+.major {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.cut {
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+.minor {
+    font-size: 20px;
+}
+.token {
+    margin-top: -10px;
+}
+.maker {}
+.parallel {
+    font-family: 'Red Hat Display', sans-serif;
+}
+.mode {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: hsl(238, 95%, 39%);
+    color: rgb(252, 251, 249);
+}
+.care {
+    width: 80%;
+    margin-left: 50px;
+    height: 50px;
+    border: none;
+    margin-bottom: 50px;
+    background: rgb(248, 247, 248);
+}
+@media only screen and (max-width: 375px) {
+    .general {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .image_cover {
+        width: 359px;
+    }
+    .tie {
+        width: 75%;
+        font-size: 16px;
+        padding-left: -20px;
+    }
+    .combination {
+        text-align: center;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+}
